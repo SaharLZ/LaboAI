@@ -1,25 +1,24 @@
-
 # 🧬 LaboAI
 
-**LaboAI** est une plateforme intelligente de laboratoire numérique conçue pour la détection assistée par intelligence artificielle de plusieurs types de cancers. Cette solution intégrée combine plusieurs modèles spécialisés, notamment pour :
+**LaboAI** is an intelligent digital laboratory platform designed for AI-assisted detection of multiple types of cancer. This integrated solution combines several specialized models, including:
 
-* 🩺 La classification d’images dermatologiques (cancer de la peau)
-* 📊 L’analyse de données tabulaires issues d’examens médicaux (cancer du sein et cancer du poumon)
+* 🩺 Image classification for dermatological cases (skin cancer)
+* 📊 Analysis of tabular data from medical exams (breast cancer and lung cancer)
 
-Le système repose sur une architecture modulaire robuste, comprenant :
+The system is built on a robust modular architecture, including:
 
-* 🖥️ Un backend développé avec **Flask** pour l’inférence rapide et sécurisée des modèles d’IA
-* 🌐 Une interface web ergonomique réalisée en **Next.js**, offrant aux professionnels de santé et chercheurs une expérience fluide pour interagir avec les outils de prédiction
+* 🖥️ A **Flask**-based backend for fast and secure AI model inference
+* 🌐 An ergonomic web interface built with **Next.js**, offering healthcare professionals and researchers a smooth experience to interact with the prediction tools
 
 ---
 
-## 🚀 Installation et démarrage rapide
+## 🚀 Quick Installation & Startup
 
-1. 📥 Clonez ce dépôt sur votre machine.
+1. 📥 Clone this repository to your machine.
 
-2. 🖥️ Ouvrez deux terminaux distincts.
+2. 🖥️ Open two separate terminals.
 
-3. Dans le premier terminal, lancez le frontend :
+3. In the first terminal, start the frontend:
 
 ```bash
 cd frontend
@@ -27,7 +26,7 @@ npm install
 npm run dev
 ```
 
-4. Dans le second terminal, lancez le backend :
+4. In the second terminal, start the backend:
 
 ```bash
 cd backend
@@ -37,6 +36,4 @@ python app.py
 
 ---
 
-Cette organisation vous permet de développer, tester et utiliser facilement LaboAI, tout en tirant parti de la puissance des modèles d’IA pour la détection précoce des cancers. 🎯
-
-
+This setup allows you to easily develop, test, and use LaboAI while harnessing the power of AI models for early cancer detection. 🎯
